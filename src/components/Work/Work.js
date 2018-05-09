@@ -19,6 +19,7 @@ export default class Work extends Component {
 }
 
 Work.defaultProps = {
+  image: 'default',
   desc: 'This is a work @solt9029.',
   date: 'XXXX-XX',
 }
