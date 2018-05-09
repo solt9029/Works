@@ -7,7 +7,7 @@ export default class Work extends Component {
     return (
       <Col lg={4} md={6} sm={12} xs={12}>
         <Card>
-          <CardImg top width="100%" src={this.props.image} alt={this.props.image} />
+          <CardImg top width="100%" src={`/images/${this.props.image}.jpg`} alt={this.props.image} />
           <CardBody>
             <CardText>{this.props.desc}</CardText>
             <CardText className="date">Created in {this.props.date}</CardText>

@@ -4,6 +4,7 @@ import Work from '../Work/Work';
 import AppNavbar from '../AppNavbar/AppNavbar';
 import AppFooter from '../AppFooter/AppFooter';
 import { Container, Row } from 'reactstrap';
+import data from '../../data/data';
 
 export default class App extends Component {
   render() {
@@ -12,9 +13,7 @@ export default class App extends Component {
         <AppNavbar />
         <Container>
           <Row>
-            <Work image="/images/editmaster.jpg" desc="太鼓の創作譜面を支援するWebアプリ。" date="2017-01" />
-            <Work image="/images/editmaster.jpg" desc="太鼓の創作譜面を支援するWebアプリ。" date="2017-01" />
-            <Work image="/images/editmaster.jpg" desc="太鼓の創作譜面を支援するWebアプリ。" date="2017-01" />
+            <Work image={data[0].image} desc={data[0].desc} date={data[0].date} />
           </Row>
         </Container>
         <AppFooter />
