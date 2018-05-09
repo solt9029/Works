@@ -10,6 +10,7 @@ export default class Works extends Component {
     data.forEach((work) => {
       works.push(<Work image={work.image} url={work.url} desc={work.desc} date={work.date} />);
     });
+    works.reverse();
 
     return (
       <Container>
