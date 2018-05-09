@@ -6,10 +6,15 @@ import data from '../../data/data';
 
 export default class Works extends Component {
   render() {
+    let works = [];
+    data.forEach((work) => {
+      works.push(<Work image={work.image} url={work.url} desc={work.desc} date={work.date} />);
+    });
+
     return (
       <Container>
         <Row>
-          <Work image={data[0].image} desc={data[0].desc} date={data[0].date} />
+          {works}
         </Row>
       </Container>
     );

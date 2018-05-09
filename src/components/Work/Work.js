@@ -4,9 +4,9 @@ import { Card, Col, CardImg, CardText, CardBody } from 'reactstrap';
 
 export default class Work extends Component {
   openUrl() {
-    window.open('http://solt9029.com', '_blank');
+    window.open(this.props.url, '_blank');
   }
-  
+
   render() {
     return (
       <Col lg={4} md={6} sm={12} xs={12}>
@@ -24,6 +24,7 @@ export default class Work extends Component {
 
 Work.defaultProps = {
   image: 'default',
+  url: 'http://solt9029.com',
   desc: 'This is a work @solt9029.',
   date: 'XXXX-XX',
 }
