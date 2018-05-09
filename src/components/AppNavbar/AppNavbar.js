@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './WorksNavbar.css';
+import './AppNavbar.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 
-export default class WorksNavbar extends Component {
+export default class AppNavbar extends Component {
   render() {
     return (
       <Navbar>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './WorksFooter.css';
+import './AppFooter.css';
 import { Container } from 'reactstrap';
 
-export default class WorksFooter extends Component {
+export default class AppFooter extends Component {
   render() {
     return (
       <Container fluid className="footer">
