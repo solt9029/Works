@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Work from '../Work/Work';
 import WorksNavbar from '../WorksNavbar/WorksNavbar';
+import WorksFooter from '../WorksFooter/WorksFooter';
 import { Container, Row } from 'reactstrap';
 import editmaster from '../../images/editmaster.jpg';
 
@@ -17,6 +18,7 @@ export default class App extends Component {
             <Work image={editmaster} desc="太鼓の創作譜面を支援するWebアプリ。" date="2017-01" />
           </Row>
         </Container>
+        <WorksFooter />
       </div>
     );
   }
