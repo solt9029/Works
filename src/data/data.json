@@ -68,19 +68,19 @@
   {
     "image": "taikoeditor",
     "url": "",
-    "desc": "磁石でフィジカルに太鼓の創作譜面をしよう。",
+    "desc": "磁石で太鼓の創作譜面を。",
     "date": "2016-08"
   },
   {
     "image": "toeicgenerator",
     "url": "",
-    "desc": "写真を投げるだけで、TOEIC問題が自動生成。",
+    "desc": "TOEIC作成は、写真を投げるだけ。",
     "date": "2016-08"
   },
   {
     "image": "toeiceditor",
     "url": "",
-    "desc": "これを使えば、誰でもTOEIC問題作成者に。",
+    "desc": "これを使えば、誰でもTOEIC出題者。",
     "date": "2016-09"
   },
   {
@@ -109,7 +109,7 @@
   {
     "image": "amazon_library_auto_fill",
     "url": "https://www.youtube.com/watch?v=kIDE2JxQUto",
-    "desc": "Amazonリンクを貼り付けるだけで、図書館購入依頼。",
+    "desc": "購入依頼は、Amazonリンクを貼るだけ。",
     "date": "2017-03"
   },
   {
@@ -121,7 +121,7 @@
   {
     "image": "pdfrenamer",
     "url": "https://github.com/solt9029/PDFRenamer",
-    "desc": "PDF名をヘッダータイトルに変換してくれる君。",
+    "desc": "PDF名をヘッダータイトルに変換。",
     "date": "2017-05"
   },
   {
