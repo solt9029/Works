@@ -14,7 +14,13 @@
   {
     "image": "mousetutor",
     "url": "https://research.miyashita.com/2017/D176/",
-    "desc": "マウスに手を動かされるチュートリアル。",
+    "desc": "マウスに手を動かされながら学ぶ新体験。",
     "date": "2017-03"
+  },
+  {
+    "image": "mlbma",
+    "url": "http://mlbma.solt9029.com",
+    "desc": "中野図書館の貸出状況を一瞬で把握。",
+    "date": "2017-09"
   }
 ]
