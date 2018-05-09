@@ -84,6 +84,12 @@
     "date": "2016-09"
   },
   {
+    "image": "realtimebbs",
+    "url": "https://github.com/solt9029/RealTimeBBS",
+    "desc": "socketを使わず、リアルタイム通信。",
+    "date": "2016-10"
+  },
+  {
     "image": "editmaster",
     "url": "http://editmaster.solt9029.com",
     "desc": "太鼓の創作譜面を支援するWebアプリ。",
@@ -125,16 +131,88 @@
     "date": "2017-05"
   },
   {
+    "image": "wrapperapi",
+    "url": "http://wrapperapi.solt9029.com",
+    "desc": "誰でも簡単に使えるAPI。",
+    "date": "2017-05"
+  },
+  {
+    "image": "randomdithering",
+    "url": "https://github.com/solt9029/RandomDithering",
+    "desc": "好きな画像をランダムディザリング。",
+    "date": "2017-06"
+  },
+  {
     "image": "taiko_motion_effect",
     "url": "http://taikomotioneffect.solt9029.com/",
     "desc": "太鼓の達人の多くのカメラ技法を適用。",
     "date": "2017-06"
   },
   {
+    "image": "othelloai",
+    "url": "https://github.com/solt9029/OthelloAI",
+    "desc": "オセロ対戦コンピュータ。すごく弱い。",
+    "date": "2017-07"
+  },
+  {
+    "image": "reflow_selection_time_visualization",
+    "url": "https://github.com/solt9029/ReflowSelectionTimeVisualization",
+    "desc": "Reflowの選択時間を可視化。",
+    "date": "2017-07"
+  },
+  {
+    "image": "weather_db_visualization",
+    "url": "https://github.com/solt9029/WeatherDBVisualization",
+    "desc": "日本全国の気温を可視化。",
+    "date": "2017-07"
+  },
+  {
+    "image": "taiko_good_effect",
+    "url": "https://www.youtube.com/watch?v=i5UzD_s6jbQ",
+    "desc": "太鼓の達人のエフェクトを忠実に再現。",
+    "date": "2017-07"
+  },
+  {
+    "image": "undodetection",
+    "url": "https://github.com/solt9029/UndoDetection",
+    "desc": "安藤さんが、Undoを検出する。",
+    "date": "2017-07"
+  },
+  {
     "image": "mlbma",
     "url": "http://mlbma.solt9029.com",
     "desc": "中野図書館の貸出状況を一瞬で把握。",
     "date": "2017-09"
+  },
+  {
+    "image": "gulptja",
+    "url": "https://www.npmjs.com/package/gulp-tja",
+    "desc": "tjaファイルを、より簡潔に。",
+    "date": "2017-09"
+  },
+  {
+    "image": "icon_rearrangement_method_that_keeps_most_spatial_consistency",
+    "url": "https://www.youtube.com/watch?v=tqTEn6Inx5o",
+    "desc": "新しいアイコン整列手法の提案。",
+    "date": "2017-12"
+  },
+  {
+    "image": "proposed_windows_setting",
+    "url": "https://github.com/solt9029/ProposedWindowsSetting",
+    "desc": "Windows設定の整列手法改善。",
+    "date": "2017-12"
+  },
+  {
+    "image": "3dportfolio",
+    "url": "https://solt9029.github.io/3DPortfolio/",
+    "desc": "3Dで作品紹介。",
+    "date": "2017-12"
+  },
+  {
+    "image": "ar_taiko_editor",
+    "url": "https://www.youtube.com/watch?v=ppCxQYaND_k",
+    "desc": "用意するものは紙だけ、楽しく創作譜面。",
+    "date": "2018-01"
   },
   {
     "image": "cheers_without_hitting",
