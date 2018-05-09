@@ -23,3 +23,9 @@ Work.defaultProps = {
   desc: 'This is a work @solt9029.',
   date: 'XXXX-XX',
 }
+
+Work.propTypes = {
+  image: React.PropTypes.string,
+  desc: React.PropTypes.string,
+  date: React.PropTypes.string
+}
