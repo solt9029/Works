@@ -5,6 +5,7 @@
 }
 .card:hover {
   box-shadow: 3px 3px 6px;
+  cursor: pointer; 
 }
 .card-text {
   white-space: nowrap;

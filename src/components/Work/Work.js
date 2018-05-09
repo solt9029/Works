@@ -3,10 +3,14 @@ import './Work.css';
 import { Card, Col, CardImg, CardText, CardBody } from 'reactstrap';
 
 export default class Work extends Component {
+  openUrl() {
+    window.open('http://solt9029.com', '_blank');
+  }
+  
   render() {
     return (
       <Col lg={4} md={6} sm={12} xs={12}>
-        <Card>
+        <Card onClick={this.openUrl}>
           <CardImg top width="100%" src={`/images/${this.props.image}.jpg`} alt={this.props.image} />
           <CardBody>
             <CardText>{this.props.desc}</CardText>
@@ -22,10 +26,4 @@ Work.defaultProps = {
   image: 'default',
   desc: 'This is a work @solt9029.',
   date: 'XXXX-XX',
-}
-
-Work.propTypes = {
-  image: React.PropTypes.string,
-  desc: React.PropTypes.string,
-  date: React.PropTypes.string
 }
